@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.nav-container {
+  width: 600px;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  background-color: rgb(170, 208, 195);
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.admin-table {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.admin-subtitle {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.addbtn {
+  padding: 5px;
+  color: white;
+  background-color: blue;
+}
+
+.content {
+  text-align: center;
+}
+.user {
+  list-style: none;
+}
+
+.deletuser {
+  margin-top: 10px;
+  float: right;
+  width: 120px;
+  padding: 5px;
+  color: white;
+  background-color: blue;
+}
